@@ -8,7 +8,7 @@ public class Hamming {
 
     public Hamming(String s, String s1) {
         if (s.length() != s1.length()) {
-            throw new IllegalArgumentException("s must equal s1");
+            throw new IllegalArgumentException("leftStrand and rightStrand must be of equal length.");
         }
         this.s = s;
         this.s1 = s1;
